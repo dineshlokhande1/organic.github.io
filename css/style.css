@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+
+  /* ************************************************************* */
+/*                   Header   SECTION */
+/* ************************************************************ */
+
+header{
+    padding: 0.8rem ;
+    background-color: green;
+   
+    
+  }
+  .control{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 78rem
+   
+   
+  }
+  .contact-list ul {
+  display: flex;
+  justify-content: space-between;
+    text-align: center;
+    gap: 1rem;
+    list-style: none;
+  
+    
+  }
+  .contact-list ul a{
+    text-decoration: none;
+    transition: all 3s;
+    
+  }
+  
+  .phone{
+   
+    border-radius: 50%;
+    padding: .6rem;
+   
+    color: white;
+  }
+  
+  .linkedin{
+    border: 1px solid rgb(78, 79, 83);
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color:white ;
+    color: green;
+  }
+  
+  :hover.phone{
+    color: rgb(0, 232, 0);
+  }
+  
+  :hover.skype{
+    color: #00aff0;
+  }
+  :hover.linkedin{
+    color: #dd4b39;
+  }
+  .contact-list-media ul{
+    display: flex;
+  justify-content: space-between;
+    text-align: center;
+    gap: 2rem;
+    list-style: none;
+   
+    
+  }
+  .contact-list-media ul a{
+    text-decoration: none;
+    transition: all 3s;
+  }
+  
+   .facebook{
+    border: 1px solid rgb(78, 79, 83);
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color:white ;
+    color: green;
+  }
+   .instagram{
+   
+    border-radius: 50%;
+    padding: 0.6rem;
+   
+    color: white;
+   }
+  .location{
+    
+    border-radius: 50%;
+    padding: 0.6rem;
+   
+    color: white;
+  }
+  .circle{
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 0.6rem;
+    
+   
+    color: white;
+  }
+  .email{
+   font-weight: 500;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  :hover.facebook{
+    color:#1877f2;
+  }
+  
+  :hover.location{
+    color:#1da1f2;
+  }
+  
+  :hover.instagram{
+    color:#e1306c;
+  }
+  :hover.circle{
+    color:#6590c7;
+  }
+  
+  :hover.email{
+    color:#1000c7;
+  }
+  
+  
+  
+  /* ************************************************************* */
+/*                   Main-Header   SECTION */
+/* ************************************************************ */
+
+  
+.main-header{
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+ 
+
+ 
+
+}
+.left-side{
+display: flex;
+border: 1px soild red;
+
+}
+
+
+.menu-List ul  {
+ 
+  padding-top: 2rem 0 0 0;
+ list-style-type: none;
+
+ font-size: 1.5rem;
+
+ 
+}
+.navigation-menu{
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.search{
+  padding-left: 5rem;
+  border-radius: 10px;
+}
+input{
+  width: 20rem;
+  padding: 0.5rem;
+}
+buttoN{
+  border: 1px soild grey;
+  padding: 0.5rem;
+}
+
+.drop1{
+display: flex;
+
+}
+
+
+
+.location ul{
+  display: inline-flex;
+  gap: 2rem;
+  list-style-type: none;
+ 
+}
+.location-pin  {
+  color: grey;
+  text-decoration: none;
+ 
+}
+
+.user{
+  color: grey;
+  text-decoration: none;
+}
+
+.user1 {
+  color: grey;
+  text-decoration: none;
+}
+.ui-cart{
+  color: red;
+  text-decoration: none;
+}
+
+.right-side-button{
+  display: flex;
+  gap: 2rem;
+}
+
+.Offers{
+  
+  padding: 0.5rem;
+  width: 7rem;
+  text-align: center;
+  background-color: #f5aac3;
+  border-radius: 1rem;
+}
+
+.subscription{
+  padding: 0.5rem;
+  width: 7rem;
+  text-align: center;
+  background-color: rgb(159, 241, 159);
+  border-radius: 1rem;
+}
+
+.health{
+  border: 1px solid gray;
+  padding: rem;
+  padding: 0.5rem;
+  width: 7rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+.health1{
+  color: green;
+}
+.Home{
+  color: #dd4b39;
+}
+  
+.vegetable-food{
+  padding-top: 1rem;
+ 
+}
+.all-categories ul {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+
+}
+.fruits-button{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+}
+.fruits{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.fruits1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.cauli-flower1{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+}
+.cauli-flower{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.cauli-flower2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.wheat1{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+  
+}
+.wheat{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.wheat2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.milk1{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+}
+.milk{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.milk2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.soup-bowl1{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+}
+.soup-bowl{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.soup-bowl2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.soft-drinks1{
+  padding: 0.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: rgb(217, 245, 217);
+  text-align: center;
+}
+.soft-drinks{
+  color: green;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.soft-drinks2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* main sub-Section starts here */
+
+
+
+.heading{
+  padding-top: 1rem;
+  
+  
+}
+.heading2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-header{
+  padding-top: 1rem;
+}
+.main-header1 .some-text{
+  display: flex;
+  gap: 1rem;
+ 
+  
+}
+.some-text1{
+ 
+  background-color: gold;
+  min-width:8rem;
+  height: 5rem;
+  border-radius: 1rem;
+  text-align: center;
+
+
+  
+}
+.some-text2{
+text-align: center;
+margin-top: 1.5rem;
+font-weight: 600;
+
+}
+
+
+
+
+
+@media screen and (min-width: 375px) {
+
+ 
+  
+
+}
+
+
+
+@media screen and  (min-width: 768px) { }
+
+@media  screen and (min-width: 992px) {  }
+
+
+@media screen and (min-width: 1200px) {  }
+
+ 
+@media screen and (min-width: 1400px) {  }
